@@ -53,7 +53,7 @@ const Search = () => {
          <div>
           <div className="flex gap-2">
           <img src={src} width={54} alt="" />
-          <h2 className="text-[45px]">{data.temp}</h2>
+          <h2 className="text-[45px]">{data.temp} °C</h2>
           </div>
           <p className="text-center text-xl">Temperature</p>
         
